@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="EasyVisitors",
-    version="0.0.3",
+    version="0.0.4",
     author="Deekshant Wadhwa",
     author_email="deekshantwadhwa2000@gmail.com",
     description="A simple counter to keep a record of number of visitors who visit your website.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/deekshant-w/EasyCounter",
+    url="https://github.com/deekshant-w/EasyVisitor",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
