@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+</head>
+<style>
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 15px;
+    border: 1px solid #1c1b1b;
+    border-radius: 8px;
+    background: #4e4b4b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4e4b4b), to(#1c1b1b));
+    background: -moz-linear-gradient(top, #4e4b4b, #1c1b1b);
+    background: linear-gradient(to bottom, #4e4b4b, #1c1b1b);
+    -webkit-box-shadow: #5e5a5a 0px 0px 5px 0px;
+    -moz-box-shadow: #5e5a5a 0px 0px 5px 0px;
+    box-shadow: #5e5a5a 0px 0px 5px 0px;
+    font: normal normal bold 14px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #1f1e1e;
+    background: #5e5a5a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e5a5a), to(#222020));
+    background: -moz-linear-gradient(top, #5e5a5a, #222020);
+    background: linear-gradient(to bottom, #5e5a5a, #222020);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #1c1b1b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1c1b1b), to(#1c1b1b));
+    background: -moz-linear-gradient(top, #1c1b1b, #1c1b1b);
+    background: linear-gradient(to bottom, #1c1b1b, #1c1b1b);
+}
+
+</style>
+<body style="padding-top: 1vmax;padding-left:3vmax;font-size:2vmax;padding-right:5vmax;">
+	<div>
+		<a class="button" href="/">Home</a>&nbsp;&nbsp;
+		<a class="button" href="/Credits">Credits</a>&nbsp;&nbsp;
+		<a class="button" href="/About" style="color: #00fff1">About</a>&nbsp;&nbsp;
+		<a class="button" href="https://www.s2scart.com">S2Scart</a>
+	</div>
+
+	<h1><u>About</u></h1>
+    <div style="font-size: 1.2rem;text-align: justify;font-family:monospace;">
+        <h3>Easy Counter is a simple counter app for django unlike several other complicated and difficult to setup apps which require a lot of time and concentration to set up</h3>
+        <h3>I created this app-middleware because I couldnt find an easy to setup package for this task hence I thought that it might be same for others too.</h3>
+        <h3>The features of this app are quite less as of the day I am writtng it but if anyone needs some other features too then let me know, I might add them for everyone who uses this app in future.</h3><br>
+    </div>
+	<h2>Visitor Count : {{ request.visitors }}</h2>
+</body>
+</html>

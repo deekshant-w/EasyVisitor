@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+</head>
+<style>
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 15px;
+    border: 1px solid #1c1b1b;
+    border-radius: 8px;
+    background: #4e4b4b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4e4b4b), to(#1c1b1b));
+    background: -moz-linear-gradient(top, #4e4b4b, #1c1b1b);
+    background: linear-gradient(to bottom, #4e4b4b, #1c1b1b);
+    -webkit-box-shadow: #5e5a5a 0px 0px 5px 0px;
+    -moz-box-shadow: #5e5a5a 0px 0px 5px 0px;
+    box-shadow: #5e5a5a 0px 0px 5px 0px;
+    font: normal normal bold 14px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #1f1e1e;
+    background: #5e5a5a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e5a5a), to(#222020));
+    background: -moz-linear-gradient(top, #5e5a5a, #222020);
+    background: linear-gradient(to bottom, #5e5a5a, #222020);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #1c1b1b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1c1b1b), to(#1c1b1b));
+    background: -moz-linear-gradient(top, #1c1b1b, #1c1b1b);
+    background: linear-gradient(to bottom, #1c1b1b, #1c1b1b);
+}
+.links{
+    width: 4vmax;
+}
+
+</style>
+<body style="padding-top: 1vmax;padding-left:3vmax;font-size:2vmax">
+	<div>
+		<a class="button" href="/">Home</a>&nbsp;&nbsp;
+		<a class="button" href="/Credits" style="color: #00fff1">Credits</a>&nbsp;&nbsp;
+		<a class="button" href="/About">About</a>&nbsp;&nbsp;
+		<a class="button" href="https://www.s2scart.com">S2Scart</a>
+	</div>
+
+	<h1 style="padding-bottom: 2.5%;margin-bottom: 0px;"><u>Credits</u> -</h1>
+    <h4 style="color: #d31c15;font-size: 3vmax;text-shadow: 1px 1px 1px black;margin-top: 1vmax;">
+        DEEKSHANT WADHWA<br>
+        <a href='https://www.linkedin.com/in/deekshant-wadhwa' style="text-decoration: none;">
+            <img class='links' src="https://img.icons8.com/color/48/000000/linkedin.png">
+        </a>&nbsp;&nbsp;
+        <a href='https://www.github.com/deekshant-w' style="text-decoration: none;">
+            <img class='links' src="https://img.icons8.com/material-outlined/48/000000/github.png">
+        </a>&nbsp;&nbsp;&nbsp;
+        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=deekshantwadhwa2000@gmail.com' style="text-decoration: none;">
+            <img class='links' src="https://img.icons8.com/color/48/000000/gmail.png">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href='https://www.s2scart.com/static/resume.pdf' style="text-decoration: none;">
+            <img class='links' src="https://img.icons8.com/dusk/64/000000/overview-pages-2.png">
+        </a>
+    </h4>
+	<h2>Visitor Count : {{ request.visitors }}</h2>
+</body>
+</html>
