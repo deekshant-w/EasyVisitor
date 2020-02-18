@@ -1,11 +1,10 @@
 # EasyVisitors
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deekshant-w/EasyVisitor)
-[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/EasyVisitors/) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/deekshant-w/EasyVisitor)
+[![PyPI version](https://badge.fury.io/py/EasyVisitors.svg)](https://badge.fury.io/py/EasyVisitors)
 [![GitHub issues](https://img.shields.io/github/issues/deekshant-w/EasyVisitor)](https://github.com/deekshant-w/EasyVisitor/issues)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/EasyVisitors)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) 
 
 EasyVisitors is a simple to use Django App that counts website visitors and displays them without any hassles. It uses cookies to keep a track of how many people visited you website and doesnot increments simply upon a refresh unlike other simple counters. 
