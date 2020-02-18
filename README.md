@@ -33,10 +33,10 @@ MIDDLEWARE = [
 ## Getting Started
 It is a local counter so it is necessary to create some space for recording it's values in the database. But no worries all of it has been taken care off. You just have to run - 
 ```python
-python manage.py makemigrations EasyVisitors
+> python manage.py makemigrations EasyVisitors
 ```
 ```python
-python manage.py migrate EasyVisitors
+> python manage.py migrate EasyVisitors
 ```
 This will create a simple table to store the values of the counter in the database. This step is very important as without these migrations the app wont be able to run as it wont be able to store it's values and hence will show an error.
 
