@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="EasyVisitors",
-    version="0.0.4",
+    version="0.1.0",
     author="Deekshant Wadhwa",
     author_email="deekshantwadhwa2000@gmail.com",
     description="A simple counter to keep a record of number of visitors who visit your website.",
