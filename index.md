@@ -50,7 +50,9 @@ This will create a simple table to store the values of the counter in the databa
 ## Using the app
 This simple to configure app is also simple to use. To use the value of counter in your templates - 
 ```html
-{% raw %}{{ request.visitors }}{% endraw %}
+{% raw %}
+{{ request.visitors }}
+{% endraw %}
 ```
 And to use it anywhere else - 
 ```python
